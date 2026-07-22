@@ -1,8 +1,163 @@
-Operational Efficiency & Patient Flow
-An analysis of the operational and clinical data reveals a complex healthcare system constantly balancing capacity constraints with patient care demands. The foundational metrics focus heavily on tracking total admissions, patient throughput, and the average length of stay (ALOS) across various medical departments. By keeping close tabs on these patterns, hospital administrators can pinpoint structural bottlenecks especially in high-volume entry points like the Emergency Department or resource-intensive units like the ICU allowing for more dynamic staffing models and optimized bed management. Additionally, analyzing clinical outcomes like 30-day readmission rates gives a direct look into the quality of transitional care, highlighting specific wings or specialty clinics that might need standardized care pathways to prevent premature patient discharges. 
-Financial Viability & Resource Optimization
-From a financial perspective, the system coordinates department-specific revenue margins against the rising costs of specialized treatments and complex pharmaceutical supply chains. The data underscores a critical necessity to align high-cost areas, such as Oncology or Cardiology, with rigorous cost-containment measures that protect the bottom line without compromising patient safety or care standards. Meanwhile, outpatient clinics represent high-volume, lower-cost touchpoints where optimization efforts focus heavily on maximizing physician utilization and cutting down on appointment no-shows. By synthesizing these financial indicators with day-to-day operational metrics, leadership can move from reactive troubleshooting to predictive resource planning, protecting long-term financial viability while safeguarding the institution's clinical reputation. 
-The Power of Treemap Visualizations
-The Treemap visualization in the report serves as an incredibly effective asset for making sense of these massive, hierarchical datasets at a glance. By organizing data into nested, proportional rectangles, the treemap allows executives to immediately spot systemic trends and micro-level anomalies within a single viewport, completely bypassing the awkward scrolling limitations of standard bar charts. The size of each rectangle dynamically represents a quantitative weight like total expenditure, patient volume, or surgical procedure counts while its color coding introduces a secondary analytical dimension, such as year-over-year budget deviations or clinical quality scores. Whether you're dissecting pharmaceutical expenses by drug class or mapping diagnostic categories to isolate which conditions consume the highest share of resources, the treemap transforms dense data tables into an intuitive roadmap for strategic decision-making. 
-Contextualizing with Supporting Visuals
-Beyond the treemap, the report utilizes a strategic mix of other core visualizations to deliver a well-rounded view of clinical and financial performance. High-level KPI cards sit at the top of the dashboard to give stakeholders an immediate snapshot of critical baseline metrics like total admissions and current ALOS, using conditional formatting to flag urgent capacity alerts. Supplementing these views, clustered column and line charts track temporal data, mapping patient influx and departmental costs over multi-month intervals to unearth seasonal spikes or structural budget overruns. Finally, interactive matrix tables and slicers allow administrators to dynamically filter this data by department, age bracket, or diagnostic code, perfectly bridging the gap between high-level operational trends and granular patient-level insights to drive targeted improvements. 
+ Healthcare Stroke Data Analysis Dashboard
+📌 Project Overview
+This project analyzes a healthcare stroke prediction dataset using Power BI to identify patterns and risk factors associated with stroke cases. The dashboard provides interactive visualizations that help understand the relationship between patient demographics, medical history, lifestyle factors, and stroke occurrence. It enables users to explore insights through dynamic charts, KPIs, and filters for better healthcare decision-making.
+
+🎯 Objectives
+Analyze stroke occurrence among patients.
+Identify high-risk patient groups.
+Compare stroke cases across different age groups.
+Study the impact of hypertension and heart disease.
+Analyze the relationship between BMI, glucose level, and stroke.
+Compare stroke cases based on smoking status and work type.
+Build an interactive Power BI dashboard for data visualization.
+🛠️ Technologies Used
+Power BI Desktop
+Microsoft Excel / CSV Dataset
+Data Cleaning
+Data Transformation
+DAX (Data Analysis Expressions)
+Interactive Visualizations
+📂 Dataset
+The dataset contains healthcare information including:
+
+Patient ID
+Gender
+Age
+Hypertension
+Heart Disease
+Ever Married
+Work Type
+Residence Type
+Average Glucose Level
+BMI
+Smoking Status
+Stroke Status
+📖 Project Workflow
+Step 1: Load the Dataset
+Import the healthcare stroke dataset into Power BI.
+Verify that all records are loaded successfully.
+Step 2: Data Cleaning
+Perform preprocessing by:
+
+Removing unnecessary columns (if any).
+Handling missing values.
+Correcting data types.
+Cleaning inconsistent values.
+Preparing the dataset for visualization.
+Step 3: Data Transformation
+Create additional calculated columns such as:
+
+Age Group
+BMI Category
+Glucose Category
+Health Risk Level
+Stroke Status
+Step 4: Create KPIs
+Display important metrics including:
+
+Total Patients
+Total Stroke Cases
+Stroke Rate
+Average Age
+Average BMI
+Hypertension Patients
+Heart Disease Patients
+Step 5: Age Group Analysis
+Analyze:
+
+Stroke Cases by Age Group
+Patient Distribution by Age Group
+Step 6: Health Analysis
+Analyze stroke cases based on:
+
+Hypertension
+Heart Disease
+BMI Category
+Average BMI by Gender
+Step 7: Lifestyle Analysis
+Analyze stroke cases by:
+
+Smoking Status
+Work Type
+Residence Type
+Marital Status
+Step 8: Glucose Analysis
+Compare:
+
+Stroke Cases by Glucose Category
+Distribution of Average Glucose Levels
+Step 9: Demographic Analysis
+Visualize patient distribution by:
+
+Gender
+Residence Type
+Work Type
+Age Group
+Step 10: Dashboard Development
+Build an interactive dashboard with:
+
+KPI Cards
+Bar Charts
+Pie Charts
+Stacked Bar Charts
+Column Charts
+Filters and Slicers
+📊 Dashboard Features
+The dashboard includes:
+
+Total Patients KPI
+Total Stroke Cases KPI
+Stroke Rate
+Average Age
+Average BMI
+Stroke Cases by Age Group
+Stroke Cases by BMI Category
+Stroke Cases by Glucose Category
+Stroke Cases by Hypertension
+Stroke Cases by Heart Disease
+Stroke Cases by Smoking Status
+Stroke Cases by Work Type
+Gender Distribution
+Residence Type Distribution
+Health Risk Analysis
+✨ Key Features
+✅ Data Cleaning
+✅ Data Transformation
+✅ DAX Calculations
+✅ KPI Dashboard
+✅ Interactive Filters
+✅ Healthcare Data Analysis
+✅ Stroke Risk Analysis
+✅ Demographic Analysis
+✅ Lifestyle Analysis
+✅ Interactive Visualizations
+📁 Project Structure
+Healthcare_Stroke_Analysis/
+│── healthcare-dataset-stroke-data.csv
+│── Healthcare_Stroke_Dashboard.pbix
+│── README.md
+▶️ How to Run the Project
+1. Download or Clone the Repository
+git clone https://github.com/your-username/Healthcare-Stroke-Analysis.git
+2. Open Power BI Desktop
+Install the latest version of Microsoft Power BI Desktop.
+
+3. Open the Dashboard
+Open the .pbix file in Power BI Desktop.
+
+4. Refresh the Dataset
+If required, reconnect the dataset and click Refresh.
+
+5. Explore the Dashboard
+Use filters and slicers to analyze stroke cases based on different healthcare factors.
+
+📈 Results
+This dashboard helps identify:
+
+High-risk age groups for stroke.
+Impact of hypertension and heart disease on stroke occurrence.
+Relationship between BMI and stroke risk.
+Effect of glucose levels on stroke cases.
+Influence of smoking habits on stroke.
+Distribution of stroke cases across work types and demographics.
+Overall healthcare insights through interactive visualizations.
